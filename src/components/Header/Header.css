@@ -1,0 +1,47 @@
+.header {
+  max-width: 1170px;
+  margin: auto auto;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.header__logo {
+  max-width: 200px;
+  max-height: 80px;
+}
+
+.header__title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-right: 0;
+  font-weight: 400;
+  align-self: center;
+  color: #1f1f1f;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: left;
+  align-self: center;
+  margin-left: auto;
+}
+
+.header__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 100px;
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+}
+
+.header__number {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 100;
+  color: red;
+}
